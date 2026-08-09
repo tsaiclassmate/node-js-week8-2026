@@ -19,6 +19,10 @@ const dataSource = new DataSource({
 
   entities: [
     // TODO: 你的 entities
+    require('../entities/Class'),
+    require('../entities/Subject'),
+    require('../entities/Student'),
+    require('../entities/Grade'),
   ],
   migrations: ['db/migrations/*.js'],
 })
